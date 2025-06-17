@@ -21,6 +21,10 @@ a {
   color: var(--primary);
   text-decoration: none;
 }
+strong {
+  color: var(--logo);
+  font-weight: 400;
+}
 
 body {
   font-family: "Montserrat", sans-serif;
@@ -39,6 +43,7 @@ header {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
+  line-height: 1.8rem;
 }
 
 header a {
@@ -62,7 +67,8 @@ header a {
 }
 
 .vp-logo a {
-  font-size: 3rem;
+  font-size: 3.8rem;
+  font-weight: 300;
 }
 
 header ul {
@@ -81,4 +87,26 @@ header ul li a:hover {
 
 .vp {
   flex: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url(../img/frame.jpg) center center/cover ;
+}
+
+.vp-content {
+  max-width: 800px;
+  text-align: center;
+  color: white;
+}
+.vp-content h1 {
+  font-size: 3.2rem;
+  margin-bottom: 2rem;
+}
+
+.vp-content p {
+  font-size: 1.8rem;
+  font-weight: 300;
+  letter-spacing: 1px;
+  line-height: 2rem;
 }
