@@ -29,6 +29,11 @@ a {
   text-decoration: none;
 }
 
+.bg-dark{
+background: var(--primary);
+color: var(--bg-white);
+}
+
 .title {
   font-weight: 300;
   font-size: 2rem;
@@ -171,4 +176,31 @@ header ul li a:hover {
   width: 50px;
   height: 2px;
   background: var(--primary);
+}
+
+/* who */
+
+.who{
+  display: flex;
+  flex-flow: row nowrap;
+}
+.who-content-img{
+  flex: 1;
+}
+
+.who-content-img img{
+  width: 100%;
+}
+
+.who-content-text{
+  flex: 1;
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.who-content-text p {
+  font-size: 1.3rem;
+  line-height: 1.8rem;
 }
